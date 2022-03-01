@@ -12,9 +12,9 @@ public class jaideep1 {
         System.out.println("Enter last name: ");
         String Q = sc.next();
 
-        int len_C = P.length();
-        int len_D = Q.length();
-        System.out.println((("Output: " + P.substring(0, 1)).toUpperCase() + (P.substring(1, len_C).toLowerCase()))
+        int len_R = P.length();
+        int len_S = Q.length();
+        System.out.println((("Output: " + P.substring(0, 1)).toUpperCase() + (P.substring(1, len_R).toLowerCase()))
                 + " " + ((Q.toUpperCase())));
     }
 }

@@ -14,7 +14,7 @@ public class jaideep1 {
 
         int len_R = P.length();
         int len_S = Q.length();
-        System.out.println((("Output: " + P.substring(0, 1)).toUpperCase() + (P.substring(1, len_R).toLowerCase()))
+        System.out.println((("Output: " + P.substring(0, 1)).toUpperCase() + (P.substring(1, len_C).toLowerCase()))
                 + " " + ((Q.toUpperCase())));
     }
 }

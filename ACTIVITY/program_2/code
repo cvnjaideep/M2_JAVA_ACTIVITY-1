@@ -2,20 +2,20 @@ import java.io.*;
 import java.util.*;
 import java.util.Scanner;
 
-public class code2{
+public class jaideep2{
 
     public static void main(String[] as) {
         
         Scanner sc=new Scanner(System.in);
 
 	System.out.println("Enter the first name  : ");
-        String a1=sc.nextLine();
+        String p1=sc.nextLine();
 	
 	System.out.println("Enter the second name : ");
-        String a2=sc.nextLine();
+        String p2=sc.nextLine();
 	
-	String[] arr1=a1.split(" ");
-   	String[] arr2=a2.split(" ");
+	String[] arr1=p1.split(" ");
+   	String[] arr2=p2.split(" ");
    	String name=arr1[1];
    	String name1=arr2[1];
 

@@ -16,5 +16,4 @@ public class code1 {
         int len_D = B.length();
         System.out.println((("Output: " + A.substring(0, 1)).toUpperCase() + (A.substring(1, len_C).toLowerCase()))
                 + " " + ((B.toUpperCase())));
-    }
-}
+    
